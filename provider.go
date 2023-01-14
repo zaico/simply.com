@@ -16,11 +16,10 @@ import (
 // when methods are called; sync.Once can help with this, and/or you can use a
 // sync.(RW)Mutex in your Provider struct to synchronize implicit provisioning.
 
-// Provider facilitates DNS record manipulation with <TODO: PROVIDER NAME>.
+// Provider facilitates DNS record manipulation with <Simply.com>.
 type Provider struct {
-	// TODO: put config fields here (with snake_case json
-	// struct tags on exported fields), for example:
-	APIToken string `json:"api_token,omitempty"`
+	AccountName string `json:"accountName"`
+	ApiKey      string `json:"apiKey"`
 }
 
 // GetRecords lists all the records in the zone.
