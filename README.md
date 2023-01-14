@@ -7,7 +7,6 @@ Be sure to update:
 - The Go module name in go.mod
 - The latest `libdns/libdns` version in go.mod
 - All comments and documentation, including README below and godocs
-- License (must be compatible with Apache/MIT)
 - All "TODO:"s is in the code
 - All methods that currently do nothing
 
